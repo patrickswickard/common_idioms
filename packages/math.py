@@ -108,3 +108,83 @@ print(a)
 print("math.isclose(94, 100, abs_tol=5)")
 a = math.isclose(94, 100,abs_tol=5)
 print(a)
+
+print("\n")
+
+print("math.isfinite(x) is uh not surprising")
+print("a = math.isfinite(5)")
+a = math.isfinite(5)
+print(a)
+print("math.isinf(x) is unsurprising too - just tells you if infinite (pos or neg)")
+print("a = math.isinf(5)")
+a = math.isnan(5)
+print(a)
+print("math.isnan(x) is unsurprising too - just tells you if NaN (not a number)")
+print("a = math.isnan(5)")
+a = math.isnan(5)
+print(a)
+
+print("\n")
+
+print("math.isqrt(n) returns the 'integer square root' of n, i.e. the biggest number x such that x^2 < n")
+print("a = math.isqrt(50)")
+a = math.isqrt(50)
+print(a)
+
+print("\n")
+
+print("math.lcm(*integers) takes some integers and returns least common multiple")
+print("a = math.lcm(2,3,4,5)")
+a = math.lcm(2,3,4,5)
+print(a)
+
+print("\n")
+
+print("math.ldexp(x, i) returns x*2^i (x*2**i) which is essentially inverse of math.frexp()")
+print("a = math.ldexp(5,4))")
+a = math.ldexp(5,4)
+print(a)
+
+print("\n")
+
+print("math.modf returns the fractional and integer parts of x (both sharing x's sign)")
+print("a = math.modf(2.25)")
+a = math.modf(2.25)
+print(a)
+print("a = math.modf(-2.25)")
+a = math.modf(-2.25)
+print(a)
+
+print("\n")
+
+print("math.nextafter(x,y) returns the next floating-point value of x toward y.  LOL!")
+print("This is how you anger Georg Cantor's ghost.")
+print("This has great uses and can also be used to write hilariously inefficient loops")
+print("a = math.nextafter(1.0,math.inf)")
+a = math.nextafter(1.0,math.inf)
+print(a)
+
+print("\n")
+
+print("math.perm(n,k) gives you how many ways to choose k items from n items no repetition with order")
+print("a = math.perm(6,3)")
+a = math.perm(6,3)
+print(a)
+
+print("\n")
+
+print("math.prod(iterable) returns the product of all the elements in the iterable")
+print("mylist = [2,3,5.5]")
+print("a = math.prod(mylist)")
+mylist = [2,3,5.5]
+a = math.prod(mylist)
+print(a)
+
+print("\n")
+
+print("math.remainder(x,y) returns floaty remainder when x is divided by y")
+print("a = math.remainder(14.75,7)")
+a = math.remainder(14.75,7)
+print(a)
+
+print("\n")
