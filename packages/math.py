@@ -188,3 +188,22 @@ a = math.remainder(14.75,7)
 print(a)
 
 print("\n")
+
+print("math.trunc(x) truncates x rounding toward zero")
+print("a = math.trunc(14.5)")
+a = math.trunc(14.5)
+print(a)
+print("a = math.trunc(-14.5)")
+a = math.trunc(-14.5)
+print(a)
+
+print("\n")
+
+print("math.ulp(x) returns value of least significant bit of the float x")
+print("Stands for 'unit in the last place' and god only knows how you use this")
+print("a = math.ulp(14.5)")
+a = math.ulp(14.5)
+print(a)
+print("a = math.ulp(14400)")
+a = math.ulp(14400)
+print(a)
