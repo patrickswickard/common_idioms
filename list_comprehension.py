@@ -14,3 +14,7 @@ print(newlist)
 newlist2 = [x for x in fruits if 'a' in x]
 
 print(newlist2)
+
+# non-picky version
+newlist3 = [x + x for x in fruits]
+print(newlist3)
