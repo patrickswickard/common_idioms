@@ -1,8 +1,9 @@
+"""Demonstrate regex replace by line"""
 import re
 
 file = 'pinafore.txt'
-with open(file) as fd:
-  lines = fd.read().splitlines()
+with open(file,'r',encoding='utf-8') as myinfile:
+  lines = myinfile.read().splitlines()
 
 # find and report
 for thisline in lines:
