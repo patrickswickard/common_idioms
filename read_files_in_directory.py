@@ -1,3 +1,4 @@
+"""Demonstrate read lines in directory"""
 import re
 import os
 
