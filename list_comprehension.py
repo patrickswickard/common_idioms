@@ -1,3 +1,4 @@
+"""Reminder of list comprehensions"""
 # clunky version:
 
 fruits = ['apple', 'banana', 'cherry', 'kiwi', 'mango']
