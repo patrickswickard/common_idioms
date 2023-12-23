@@ -1,6 +1,6 @@
+"""Demonstrate basic plot outside notebook"""
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 
 # generate ten floats from zero to five, plot looks smooth but it's actually chunky
 x_1 = np.linspace(0,5,10)
